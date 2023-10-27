@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.html">
+    <title>Agenda Cultural</title>
+</head>
+<style>
+    hr {
+    border: 1px solid purple;
+}
+     header {
+    background-color:yellow;  
+    }
+    
+     p img {
+            position: absolute center;
+            border-radius: 40%;
+            width: 160px;
+            height: 160px;
+    }
+    p {
+        text-align: center;
+        
+    }
+    .menu {
+        text-align: center;
+        background-color: purple; 
+        padding: 10px 0;
+    }
+    
+    .menu ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .menu ul li {
+        display: inline;
+        margin-right: 20px; 
+    }
+    
+    .menu ul li:last-child {
+        margin-right: 0;
+    }
+    
+    .menu ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: yellow; 
+        font-weight: bold;
+        font-size: 16px; 
+    }
+
+    footer {
+        background-color: purple;
+        color:yellow;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: yellow;
+            box-shadow: 0 0 20px purple;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            text-align: center;
+            background-color: rgb(255, 255, 121);
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(255, 255, 109);
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        button {
+            background-color: purple;
+            color: yellow;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+
+    </style>
+    </head>
+    <header>
+        <p><img src="logo.png.jpg"></p>
+    
+        <nav class="menu">
+            <ul>
+                <li><a href="PaginaInicial.html">Página Inicial</a></li>
+                <li><a href="QuemSomos.html">Quem Somos</a></li>
+        </nav>
+    </header>
+    <br>
+    <hr>
+<hr>
+<hr>
+<div class="container">
+    <h1>Entre em Contato</h1>
+    
+    
+<form>
+        
+        
+<label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <textarea id="assunto" name="assunto" required></textarea>
+
+        <button type="submit">Enviar</button>
+    
+    
+</form>
+</div>
+
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<footer>
+    <p>Todos os direitos reservados &copy; Agenda Cultural 2023 </p>
+</footer>
+</html>

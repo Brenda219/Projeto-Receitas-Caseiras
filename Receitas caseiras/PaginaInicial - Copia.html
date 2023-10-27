@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PaginaInicial.html">
+    <title>Receitas Caseiras</title>
+</head>
+<style>
+body {
+    background-color: white;
+}
+hr {
+    border: 1px solid rgb(218, 135, 53);
+}
+table {
+            width: 90%;
+            border-collapse: collapse;
+
+        }
+
+        th, td {
+            border: 1px solid rgb(235, 112, 18);
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            text-align: center;}
+        th {
+            background-color: #f2f2f2;
+
+        }
+
+        td {
+            font-size: 18px;
+        }
+
+
+    header {
+    background-color:rgb(194, 107, 27);  
+    }
+    
+     p img {
+            position: absolute center;
+            border-radius: 40%;
+            width: 160px;
+            height: 160px;
+    }
+    p {
+        text-align: center;
+        
+    }
+    .menu {
+        text-align: center;
+        background-color: rgb(243, 225, 25); 
+        padding: 10px 0;
+    }
+    
+    .menu ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .menu ul li {
+        display: inline;
+        margin-right: 20px; 
+    }
+    
+    .menu ul li:last-child {
+        margin-right: 0;
+    }
+    
+    .menu ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(10, 11, 11); 
+        font-weight: bold;
+        font-size: 16px; 
+    }
+    
+    
+    .search-container {
+        display: inline;
+        padding: 10px;
+        position: left;
+        margin-left:-100px;
+        margin-top: 30px;
+    }
+    
+    #search-box {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+        font-size: 16px;
+    }
+    
+    #search-button {
+        padding: 5px 10px;
+        background-color: rgb(240, 240, 233);
+        border: none;
+        border-radius: 3px;
+        color: rgb(10, 11, 11); 
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: purple;
+        color:yellow;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    a img {
+        object-position: right;
+        padding: 10px 0;
+        width: 30px;
+        height: 30px;  
+         
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .event {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(14, 1, 14);
+    border-radius: 5px;
+    width: 250px;
+    display: inline-block;
+
+    }
+
+    .event h2 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .event p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    
+
+    .date {
+        font-weight: bold;
+    }
+    .espelho p{
+        text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(14, 1, 14);
+    border-radius: 5px;
+    width: 250px;
+    display: inline-block;
+        
+
+    }
+</style>
+</head>
+<header>
+    <p><img src="logo1.png.png"></p>
+
+    <nav class="menu">
+        <ul>
+            <div class="search-container">
+                <input type="text" id="search-box" placeholder="Pesquisar...">
+                <button id="search-button">Buscar</button>
+            </div>
+            <li><a href="QuemSomos.html">Quem Somos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+    </nav>
+</header>
+<body>
+    <hr>
+    <hr>
+    <hr>
+<h1>Receitas Caseiras</h1>
+
+<div class="event">
+    <p><img src="bolo.png" ></p>
+</div>
+
+<div class="event">
+    <p><img src="lasanha.png" ></p>
+    
+</div>
+<div class="espelho">
+    <p><img src="lasanha.png" ></p>
+
+</div>
+<br>
+<br>
+<hr>
+<hr>
+<hr>
+<h1>Receitas Mais Visualizadas Da Semana</h1>
+    <table>
+        <thead>
+            
+            
+<tr>
+                <th>Domingo</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+               
+                <td>Café cremoso</td>
+                <td>Pão de forno</td>
+                <td>Lasanha <br>
+                    
+                </td>
+                <td>Churrasco</td>
+                <td>Bolo de pote</td>
+                <td> Cachorro quente de forno<br></td>
+                <td>Bolinho de chuva</td>
+            </tr>
+            <tr>
+                <td>Pudim</td>
+                <td>Bolo</td>
+                <td>Brigadeirão</td>
+                <td>Maça do amor</td>
+                <td>Bife à cavalo</td>
+                <td>Strogonoff de frango</td>
+                <td>Cural de milho</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+
+</body>
+<br>
+<br>
+<hr>
+<hr>
+<hr>
+<footer>
+    <p>Todos os direitos reservados &copy; Agenda Cultural 2023 </p>
+</footer>
+</html>
